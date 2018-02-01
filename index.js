@@ -28,10 +28,12 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(num){
   //The body of the function should create a variable that stores an empty array.
   var arr = [];
-  //Then, implement a do-while loop inside the function that adds `"I love the Beatles!"` to the empty array.
+  //Then, implement a do-while loop inside the function that adds `"I love the Beatles!"` to the empty array.Then the loop should increment the number passed in as a parameter. The condition of the loop should check to see that the parameter number is less than `15`.
   var counter = 0;
-  while(num < 15){
-      Then the loop should increment the number passed in as a parameter. The condition of the loop should check to see that the parameter number is less than `15`.
-  }
+  do {
+      arr[counter] = "I love the Beatles!";
+      counter++
+  } while (num < 15);
   //The function should return the array with the strings `"I love the Beatles!"`.
-} 
+
+}
