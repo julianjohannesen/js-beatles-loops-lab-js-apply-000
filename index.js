@@ -33,6 +33,7 @@ function iLoveTheBeatles(num){
   do {
       arr[counter] = "I love the Beatles!";
       counter++
+      num++
   } while (num < 15);
   //The function should return the array with the strings `"I love the Beatles!"`.
   return arr;
