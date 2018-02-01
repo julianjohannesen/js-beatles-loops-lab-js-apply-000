@@ -16,7 +16,7 @@ function theBeatlesPlay(musicians, instruments){
 //+ Create a function `johnLennonFacts`. This function will accept one argument, an array of facts about John Lennon
 function johnLennonFacts(facts){
     //Use a while loop to loop over the facts array and add `"!!!"` to the end of every fact. The function should return an array of strings with exclamation points.
-    counter = 0;
+    var counter = 0;
     while (counter < facts.length){
       facts[counter] += "!!!";
       counter++;
