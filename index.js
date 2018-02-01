@@ -35,5 +35,5 @@ function iLoveTheBeatles(num){
       counter++
   } while (num < 15);
   //The function should return the array with the strings `"I love the Beatles!"`.
-
+  return arr;
 }
